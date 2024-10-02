@@ -9,6 +9,31 @@
     <link rel="stylesheet" href="card.css" />
     <link rel="stylesheet" href="index.css" />
     <script src="jquery.js"></script>
+    <style>
+      body {
+        background-image: url('https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/173468/Originals/background%20sinh%20nhat%20(30).jpg');
+        background-size: cover; /* Kích thước ảnh sẽ bao phủ toàn bộ phần tử */
+        background-position: center; /* Ảnh được căn giữa */
+        background-repeat: no-repeat; /* Không lặp lại ảnh */
+      }
+     @media only screen and (min-width: 1024px) {
+      body {
+        background-image: url('https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/173468/Originals/background%20sinh%20nhat%20(30).jpg');
+        background-size: cover; /* Kích thước ảnh sẽ bao phủ toàn bộ phần tử */
+        background-position: center; /* Ảnh được căn giữa */
+        background-repeat: no-repeat; /* Không lặp lại ảnh */
+      }
+      }
+     
+      @media only screen and (max-width: 431px) {
+      body {
+        background-image: url('backgruond.png');
+        background-size: cover; /* Kích thước ảnh sẽ bao phủ toàn bộ phần tử */
+        background-position: center; /* Ảnh được căn giữa */
+        background-repeat: no-repeat; /* Không lặp lại ảnh */
+      }
+      }
+    </style>
   </head>
   <body>
     <div class="parent">
@@ -51,9 +76,6 @@
       <source src="nhacnen.mp3">
     </audio>
   </body>
-    <script>
-    document.getElementById("playAudio").volume = 0.3; 
-  </script>
   <script src="config.js"></script>
   <script src="canvas.js"></script>
   <script src="present.js"></script>
